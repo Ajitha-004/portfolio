@@ -506,18 +506,19 @@ export const certificationsData: CertificationItem[] = [
     skillsGained: ["24-Hour Hackathon", "Team HACKVERSE", "Rapid Prototyping", "AI & Data Science"]
   },
   {
-    id: "brain-bid-second-prize",
-    title: "Brain Bid – Second Prize",
-    issuer: "IEEE KPRIET Student Branch & IEEE WIE",
-    date: "24th March 2026",
+    id: "brain-bid-winner",
+    title: "Brain Bid – Winner",
+    issuer: "IEEE KPRIET Women in Engineering Affinity Group",
+    date: "24 March 2026",
     category: "Hackathon & Award",
     certificateImage: "/certificates/brain-bid-ieee-second-prize.jpeg",
+    trophyImage: "/certificates/ieee-brain-bid-winner.jpeg",
     certificateId: "IEEE/WIE/BB042",
-    scoreOrCredits: "Certificate No: IEEE/WIE/BB042",
+    scoreOrCredits: "Winner Trophy & Award",
     credentialUrl: null,
     verificationAvailable: true,
-    description: "Secured Second Prize in the collegiate 'Brain Bid' competition organized by IEEE KPRIET WIE Affinity Group, recognizing sharp analytical problem solving and technical acumen.",
-    skillsGained: ["Second Prize", "IEEE Student Branch", "Analytical Strategy", "Problem Solving"]
+    description: "Awarded Winner Trophy for Outstanding Performance in 'Brain Bid – An Idea Auction', conducted by IEEE KPRIET Women in Engineering Affinity Group on 24 March 2026.",
+    skillsGained: ["Winner Trophy", "Idea Auction", "IEEE WIE", "Analytical Strategy", "Pitching"]
   }
 ];
 
