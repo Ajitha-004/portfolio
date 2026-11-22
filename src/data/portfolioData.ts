@@ -33,9 +33,9 @@ export const personalDetails: PersonalDetails = {
   ],
   careerAspirations: "Aspiring to leverage algorithmic problem-solving and AI-driven methodologies to build scalable, reliable software systems. Seeking high-impact software engineering or machine learning internships where I can contribute to real-world codebases, learn from industry mentors, and engineer robust digital solutions.",
   
-  // EDITABLE CONTACT PLACEHOLDERS (Replace with your actual contact info)
-  email: "ajithalaxmi.cse@gmail.com", // [EDITABLE PLACEHOLDER]
-  phone: "+91 98765 43210", // [EDITABLE PLACEHOLDER]
+  // ACTUAL VERIFIED CONTACT DETAILS FROM RESUME
+  email: "ajitha23022007@gmail.com",
+  phone: "+91 8124471419",
   location: "Coimbatore, Tamil Nadu, India",
   
   // ACTUAL VERIFIED PROFILES
@@ -335,50 +335,50 @@ export const internshipExperiences: InternshipExperience[] = [
     id: "nubiznez",
     company: "Nubiznez Private Limited",
     role: "Web Development Intern",
-    // EDITABLE FIELDS - Do not invent dates/responsibilities
-    duration: "[Duration: To be updated]",
-    dates: "[Dates: To be updated]",
+    duration: "1 Month",
+    dates: "1 Month Internship",
     status: "Completed",
-    isEditablePlaceholder: true,
+    isEditablePlaceholder: false,
     responsibilities: [
-      "[Editable Field] Supported web development initiatives and frontend interface styling.",
-      "[Editable Field] Collaborated with senior engineers on responsive website components.",
-      "[Editable Field] Assisted in testing and optimizing web pages across desktop and mobile browsers."
+      "Gained practical experience in website development using HTML, CSS, and Java, with hands-on testing and debugging.",
+      "Explored Lighthouse, Firebase Studio, Google AI Studio, browser developer tools, Behance, Awwwards, and Roadmap.sh to understand modern development and design workflows."
     ],
     technologiesLearned: [
-      "Web Development",
-      "Frontend Architecture",
-      "Responsive Design",
-      "Code Review Standards"
+      "HTML5",
+      "CSS3",
+      "Java",
+      "Firebase Studio",
+      "Google AI Studio",
+      "Lighthouse",
+      "Browser DevTools"
     ],
     contributions: [
-      "[Editable Field] Contributed to frontend component building and layout bug fixes.",
-      "[Editable Field] Participated in team code reviews and technical standup discussions."
+      "Assisted in frontend web layout construction, testing, and debugging responsive components.",
+      "Conducted web optimization benchmarks using Google Lighthouse and modern developer toolchains."
     ]
   },
   {
     id: "digisquares",
     company: "DigiSquares",
     role: "AI/ML Intern",
-    // EDITABLE FIELDS - Do not invent dates/responsibilities
-    duration: "[Duration: To be updated]",
-    dates: "[Dates: To be updated]",
+    duration: "1 Month",
+    dates: "1 Month Internship",
     status: "Completed",
-    isEditablePlaceholder: true,
+    isEditablePlaceholder: false,
     responsibilities: [
-      "[Editable Field] Explored machine learning algorithms and practical data preprocessing workflows.",
-      "[Editable Field] Assisted in dataset cleaning, exploratory data analysis and feature evaluation.",
-      "[Editable Field] Studied model evaluation techniques and artificial intelligence integration patterns."
+      "Gained exposure to professional company workflows, requirement analysis, teamwork, client-focused thinking, and workplace communication.",
+      "Learned how technology solutions are planned, designed, and delivered in an industry environment."
     ],
     technologiesLearned: [
       "Python",
       "Machine Learning",
-      "Data Preprocessing",
-      "Model Evaluation"
+      "Requirement Analysis",
+      "Industry Workflows",
+      "Technical Collaboration"
     ],
     contributions: [
-      "[Editable Field] Conducted data wrangling experiments for machine learning test cases.",
-      "[Editable Field] Documented model performance observations and comparative evaluation metrics."
+      "Analyzed machine learning requirements and data workflows for industry client scenarios.",
+      "Engaged in technical reviews, sprint communication, and requirement specification design."
     ]
   }
 ];

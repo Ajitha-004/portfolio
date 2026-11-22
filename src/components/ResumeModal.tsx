@@ -5,8 +5,7 @@ import {
   Download, 
   CheckCircle2, 
   X, 
-  ExternalLink,
-  Info 
+  ExternalLink 
 } from 'lucide-react';
 
 interface ResumeModalProps {
@@ -86,11 +85,11 @@ export const ResumeModal: React.FC<ResumeModalProps> = ({ isOpen, onClose }) => 
 
         {/* Status / Instructions Note */}
         <div className="p-4 rounded-xl bg-purple-950/30 border border-purple-500/20 text-xs text-slate-300 mb-6 flex items-start gap-2.5">
-          <Info className="w-4 h-4 text-purple-400 shrink-0 mt-0.5" />
+          <CheckCircle2 className="w-4 h-4 text-emerald-400 shrink-0 mt-0.5" />
           <div>
-            <p className="font-semibold text-white mb-0.5">Resume Integration Ready:</p>
+            <p className="font-semibold text-white mb-0.5">Verified Official Resume (PDF):</p>
             <p className="text-slate-300">
-              When ready, save your latest updated resume PDF directly into <code className="text-purple-300 font-mono bg-black/40 px-1 py-0.5 rounded">public/resume/Ajitha_Resume.pdf</code> to update the download instantly.
+              Latest curriculum vitae detailing B.E. CSE (AI &amp; ML) at KPRIET, technical internships at Nubiznez &amp; Digisquares, and machine learning projects.
             </p>
           </div>
         </div>

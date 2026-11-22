@@ -1,11 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X, FileText, Sparkles } from 'lucide-react';
 
-interface NavbarProps {
-  onOpenResumeModal: () => void;
-}
-
-export const Navbar: React.FC<NavbarProps> = ({ onOpenResumeModal }) => {
+export const Navbar: React.FC = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [activeSection, setActiveSection] = useState('home');
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -107,8 +103,11 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenResumeModal }) => {
 
           {/* Action Button: Download Resume */}
           <div className="hidden sm:flex items-center gap-3">
-            <button
-              onClick={onOpenResumeModal}
+            <a
+              href="/resume/Ajitha_Resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              download="Ajitha_Resume.pdf"
               className="inline-flex items-center gap-2 px-4 py-2 rounded-xl text-xs font-semibold text-slate-200 bg-[#161A30] border border-purple-500/30 hover:border-purple-400 hover:bg-purple-950/40 hover:text-white transition-all duration-300 shadow-sm hover:shadow-purple-500/20 group"
               aria-label="Download Resume"
             >
@@ -117,18 +116,21 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenResumeModal }) => {
               <span className="inline-block px-1.5 py-0.5 rounded text-[10px] bg-purple-500/20 text-purple-300 font-mono">
                 PDF
               </span>
-            </button>
+            </a>
           </div>
 
           {/* Mobile Menu Button */}
           <div className="flex sm:hidden items-center gap-2">
-            <button
-              onClick={onOpenResumeModal}
+            <a
+              href="/resume/Ajitha_Resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              download="Ajitha_Resume.pdf"
               className="p-2 rounded-lg bg-[#161A30] border border-purple-500/30 text-purple-300"
               aria-label="Resume"
             >
               <FileText className="w-4 h-4" />
-            </button>
+            </a>
             <button
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
               className="p-2 rounded-lg bg-[#161A30] border border-slate-700 text-slate-300 hover:text-white"
@@ -161,16 +163,17 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenResumeModal }) => {
                 );
               })}
               <div className="pt-3 mt-2 border-t border-slate-800">
-                <button
-                  onClick={() => {
-                    setIsMobileMenuOpen(false);
-                    onOpenResumeModal();
-                  }}
+                <a
+                  href="/resume/Ajitha_Resume.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  download="Ajitha_Resume.pdf"
+                  onClick={() => setIsMobileMenuOpen(false)}
                   className="w-full flex items-center justify-center gap-2 py-2.5 px-4 rounded-xl text-xs font-semibold text-white bg-gradient-to-r from-purple-600 to-indigo-600"
                 >
                   <FileText className="w-4 h-4" />
                   Download Resume (PDF)
-                </button>
+                </a>
               </div>
             </div>
           </div>

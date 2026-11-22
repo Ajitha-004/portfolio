@@ -16,11 +16,7 @@ import {
   ShieldCheck 
 } from 'lucide-react';
 
-interface ContactProps {
-  onOpenResumeModal: () => void;
-}
-
-export const Contact: React.FC<ContactProps> = ({ onOpenResumeModal }) => {
+export const Contact: React.FC = () => {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -216,13 +212,16 @@ export const Contact: React.FC<ContactProps> = ({ onOpenResumeModal }) => {
                   Download Ajitha_Resume.pdf directly for campus interviews.
                 </p>
               </div>
-              <button
-                onClick={onOpenResumeModal}
+              <a
+                href="/resume/Ajitha_Resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                download="Ajitha_Resume.pdf"
                 className="shrink-0 p-3 rounded-xl bg-gradient-to-r from-purple-600 to-indigo-600 text-white shadow-md hover:scale-105 transition-transform"
                 aria-label="Download Resume"
               >
                 <FileText className="w-5 h-5" />
-              </button>
+              </a>
             </div>
 
           </div>

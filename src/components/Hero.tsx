@@ -9,11 +9,7 @@ import {
   CheckCircle2 
 } from 'lucide-react';
 
-interface HeroProps {
-  onOpenResumeModal: () => void;
-}
-
-export const Hero: React.FC<HeroProps> = ({ onOpenResumeModal }) => {
+export const Hero: React.FC = () => {
   return (
     <section 
       id="home" 
@@ -70,13 +66,16 @@ export const Hero: React.FC<HeroProps> = ({ onOpenResumeModal }) => {
               </a>
 
               {/* Secondary: Download Resume */}
-              <button
-                onClick={onOpenResumeModal}
+              <a
+                href="/resume/Ajitha_Resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                download="Ajitha_Resume.pdf"
                 className="inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl text-sm font-semibold text-slate-200 bg-[#14182E] border border-purple-500/40 hover:border-purple-400 hover:bg-purple-950/30 hover:text-white transition-all duration-300 shadow-sm hover:shadow-purple-500/20 hover:-translate-y-0.5"
               >
                 <FileText className="w-4 h-4 text-purple-400" />
                 <span>Download Resume</span>
-              </button>
+              </a>
 
               {/* Tertiary: Contact Me */}
               <a
