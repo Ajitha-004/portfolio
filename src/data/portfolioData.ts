@@ -45,7 +45,7 @@ export const personalDetails: PersonalDetails = {
   // RESUME CONFIGURATION
   resumeFileName: "Ajitha_Resume.pdf",
   resumeDownloadPath: "/resume/Ajitha_Resume.pdf",
-  profilePhotoPlaceholder: "/assets/profile/ajitha-profile.png"
+  profilePhotoPlaceholder: "/profile.jpg"
 };
 
 export const educationInfo: EducationInfo = {

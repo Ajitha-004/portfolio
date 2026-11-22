@@ -6,7 +6,6 @@ import {
   Mail, 
   Linkedin, 
   Github, 
-  Sparkles, 
   CheckCircle2 
 } from 'lucide-react';
 
@@ -129,25 +128,14 @@ export const Hero: React.FC<HeroProps> = ({ onOpenResumeModal }) => {
               <div className="relative rounded-3xl bg-[#111322] border border-purple-500/30 p-5 shadow-2xl backdrop-blur-xl">
                 
                 {/* Visual Image Container */}
-                <div className="relative aspect-square rounded-2xl overflow-hidden bg-gradient-to-b from-[#181D3B] to-[#0D1022] border border-purple-500/20 flex flex-col items-center justify-center p-6 text-center group">
-                  
-                  {/* Subtle Grid in Background of Image */}
-                  <div className="absolute inset-0 bg-dots-pattern opacity-30"></div>
-                  
-                  {/* Avatar SVG */}
+                <div className="relative aspect-square rounded-2xl overflow-hidden bg-gradient-to-b from-[#181D3B] to-[#0D1022] border border-purple-500/30 group shadow-lg">
                   <img 
-                    src="/assets/profile/ajitha-profile.svg" 
-                    alt="Ajitha Laxmi Balamurugan Profile Placeholder"
-                    className="w-48 h-48 sm:w-56 sm:h-56 object-contain z-10 transition-transform duration-500 group-hover:scale-105"
+                    src="/profile.jpg" 
+                    alt="Ajitha Laxmi Balamurugan"
+                    className="w-full h-full object-cover object-center transition-transform duration-500 group-hover:scale-105"
                   />
-
-                  {/* Clean Honest Placeholder Notice */}
-                  <div className="z-10 mt-3 px-3 py-1.5 rounded-lg bg-[#0A0C18]/90 border border-slate-700/80 backdrop-blur-sm">
-                    <p className="text-[11px] font-mono text-purple-300 flex items-center gap-1.5">
-                      <Sparkles className="w-3 h-3 text-cyan-400" />
-                      <span>Professional Profile Photo Placeholder</span>
-                    </p>
-                  </div>
+                  {/* Subtle edge vignette overlay */}
+                  <div className="absolute inset-0 bg-gradient-to-t from-[#111322]/30 via-transparent to-transparent pointer-events-none"></div>
                 </div>
 
                 {/* Info Card Strip below photo */}
