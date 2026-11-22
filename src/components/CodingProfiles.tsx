@@ -38,14 +38,14 @@ export const CodingProfiles: React.FC = () => {
         </div>
 
         {/* Coding Profiles Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 items-stretch">
           {codingProfiles.map((profile, idx) => (
             <a
               key={idx}
               href={profile.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="p-6 rounded-3xl bg-[#111425] border border-purple-500/20 hover:border-purple-400/50 transition-all duration-300 hover:-translate-y-1.5 shadow-xl flex flex-col justify-between group relative overflow-hidden"
+              className="p-6 rounded-3xl bg-[#111425] border border-purple-500/20 hover:border-purple-400/50 transition-all duration-300 hover:-translate-y-1.5 shadow-xl flex flex-col justify-between group relative overflow-hidden h-full"
             >
               {/* Subtle accent glow on hover */}
               <div className="absolute top-0 right-0 w-24 h-24 bg-purple-500/5 group-hover:bg-purple-500/15 rounded-full blur-xl transition-all" />
@@ -67,14 +67,35 @@ export const CodingProfiles: React.FC = () => {
                 </h3>
 
                 {/* Handle / Username */}
-                <div className="text-xs font-mono text-cyan-400 mb-3">
-                  {profile.username}
+                <div className="text-xs font-mono text-cyan-400 mb-3 truncate" title={profile.username}>
+                  {profile.platform === 'SkillRack' ? profile.username : `@${profile.username}`}
                 </div>
 
                 {/* Description */}
-                <p className="text-xs text-slate-400 leading-relaxed">
+                <p className="text-xs text-slate-400 leading-relaxed mb-4">
                   {profile.description}
                 </p>
+
+                {/* Verified SkillRack / Language Breakdown Stats */}
+                {profile.stats && profile.stats.length > 0 && (
+                  <div className="mt-2 pt-3 border-t border-slate-800/80">
+                    <div className="text-[10px] font-mono uppercase tracking-wider text-slate-400 mb-2 flex items-center justify-between">
+                      <span>Verified Solved Stats</span>
+                      <span className="text-cyan-400 font-bold">{profile.highlightMetric?.value}</span>
+                    </div>
+                    <div className="grid grid-cols-2 gap-1.5">
+                      {profile.stats.map((st, sIdx) => (
+                        <div 
+                          key={sIdx}
+                          className="flex items-center justify-between text-[11px] font-mono px-2 py-1 rounded bg-[#161B35]/80 border border-purple-500/15 text-slate-300"
+                        >
+                          <span className="text-slate-400 truncate pr-1">{st.label}</span>
+                          <span className="font-semibold text-cyan-300">{st.value}</span>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                )}
               </div>
 
               {/* Action Link Footer */}

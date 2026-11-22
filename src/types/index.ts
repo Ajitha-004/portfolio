@@ -79,6 +79,14 @@ export interface CodingProfile {
   icon: string;
   color: string;
   badge: string;
+  highlightMetric?: {
+    label: string;
+    value: string | number;
+  };
+  stats?: {
+    label: string;
+    value: string | number;
+  }[];
 }
 
 export interface PersonalDetails {

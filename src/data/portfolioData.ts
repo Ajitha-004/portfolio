@@ -526,37 +526,49 @@ export const codingProfiles: CodingProfile[] = [
     platform: "GitHub",
     username: "Ajitha-004",
     url: "https://github.com/Ajitha-004",
-    description: "Open-source repositories, academic course projects, and software engineering experiments.",
+    description: "Open-source repositories, academic coursework, and software engineering projects.",
     icon: "Github",
     color: "from-purple-500 to-indigo-600",
-    badge: "Active Repos"
+    badge: "Active Repositories"
   },
   {
     platform: "LeetCode",
-    username: "[Ajitha_LeetCode - Editable]",
-    url: "https://leetcode.com/", // [EDITABLE PLACEHOLDER]
-    description: "Algorithmic problem solving across Arrays, Strings, Trees, and Dynamic Programming.",
+    username: "ajitha_leetcode",
+    url: "https://leetcode.com/u/ajitha_leetcode/",
+    description: "Algorithmic problem solving across data structures and computational patterns.",
     icon: "Code",
     color: "from-amber-500 to-orange-600",
     badge: "Problem Solving"
   },
   {
     platform: "CodeChef",
-    username: "[Ajitha_CodeChef - Editable]",
-    url: "https://www.codechef.com/", // [EDITABLE PLACEHOLDER]
-    description: "Competitive coding contests, rating challenges, and speed implementation practice.",
+    username: "kpr24am004",
+    url: "https://www.codechef.com/users/kpr24am004",
+    description: "Competitive programming practice, contest challenges, and 500+ difficulty rating milestones.",
     icon: "Terminal",
     color: "from-emerald-500 to-teal-600",
     badge: "Competitive Coding"
   },
   {
     platform: "SkillRack",
-    username: "[Ajitha_SkillRack - Editable]",
-    url: "https://www.skillrack.com/", // [EDITABLE PLACEHOLDER]
-    description: "Collegiate coding assessments, daily challenges, and language proficiency tests.",
+    username: "Ajitha Laxmi Balamurugan",
+    url: "https://www.skillrack.com/faces/resume.xhtml?id=531474&key=275b23d7a7b18537c28c4b3056f0b10324aaa86a",
+    description: "Collegiate assessment tracks and continuous language proficiency tests.",
     icon: "Award",
     color: "from-blue-500 to-cyan-600",
-    badge: "Academic Coding"
+    badge: "518 Solved",
+    highlightMetric: {
+      label: "Programs Solved",
+      value: 518
+    },
+    stats: [
+      { label: "Programs Solved", value: 518 },
+      { label: "Code Track", value: 216 },
+      { label: "Python 3", value: 203 },
+      { label: "Java", value: 193 },
+      { label: "C", value: 69 },
+      { label: "SQL", value: 53 }
+    ]
   }
 ];
 
