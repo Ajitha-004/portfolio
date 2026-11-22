@@ -1,0 +1,148 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" width="100%" height="100%" fill="none">
+  <defs>
+    <linearGradient id="zc-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080C1E" />
+      <stop offset="50%" stop-color="#0F1738" />
+      <stop offset="100%" stop-color="#070A18" />
+    </linearGradient>
+    <linearGradient id="zc-card" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#141E44" stop-opacity="0.85" />
+      <stop offset="100%" stop-color="#0D1430" stop-opacity="0.95" />
+    </linearGradient>
+    <linearGradient id="zc-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284C7" />
+      <stop offset="100%" stop-color="#7C3AED" />
+    </linearGradient>
+    <filter id="zc-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="1200" height="750" rx="16" fill="url(#zc-bg)" stroke="#1F2D63" stroke-width="2"/>
+
+  <!-- Top Window Titlebar -->
+  <rect width="1200" height="56" rx="16" fill="#0C132B" />
+  <rect y="40" width="1200" height="16" fill="#0C132B" />
+  <line x1="0" y1="56" x2="1200" y2="56" stroke="#1D2A5E" stroke-width="1.5" />
+  <circle cx="36" cy="28" r="6" fill="#EF4444" opacity="0.8"/>
+  <circle cx="58" cy="28" r="6" fill="#F59E0B" opacity="0.8"/>
+  <circle cx="80" cy="28" r="6" fill="#10B981" opacity="0.8"/>
+  
+  <rect x="120" y="16" width="380" height="26" rx="6" fill="#16224D" stroke="#263778" stroke-width="1"/>
+  <text x="140" y="33" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="12" font-weight="500">zohoconnect.local/meeting-hub/prototype</text>
+
+  <!-- Explicit Single Page Prototype Label -->
+  <rect x="890" y="14" width="270" height="28" rx="6" fill="#7C3AED" fill-opacity="0.2" stroke="#7C3AED" stroke-width="1.5"/>
+  <text x="906" y="32" fill="#DDD6FE" font-family="system-ui, sans-serif" font-size="11" font-weight="700" letter-spacing="0.5">SINGLE-PAGE PROTOTYPE PREVIEW</text>
+
+  <!-- App Header -->
+  <rect x="0" y="56" width="1200" height="65" fill="#0E1635" />
+  <line x1="0" y1="121" x2="1200" y2="121" stroke="#1E2C61" stroke-width="1" />
+
+  <rect x="40" y="71" width="35" height="35" rx="8" fill="url(#zc-grad)" filter="url(#zc-glow)"/>
+  <text x="49" y="95" fill="#FFFFFF" font-family="system-ui, sans-serif" font-weight="800" font-size="18">Z</text>
+  <text x="86" y="92" fill="#FFFFFF" font-family="system-ui, sans-serif" font-weight="700" font-size="18">Zoho<tspan fill="#38BDF8">Connect</tspan></text>
+  <text x="86" y="106" fill="#64748B" font-family="system-ui, sans-serif" font-size="11">Cross-Time-Zone Meeting Coordinator &amp; Agenda Planner</text>
+
+  <!-- Top Time-Zone Converter Bar -->
+  <rect x="520" y="69" width="640" height="40" rx="8" fill="#131E44" stroke="#243773" stroke-width="1"/>
+  
+  <circle cx="540" cy="89" r="6" fill="#38BDF8"/>
+  <text x="555" y="93" fill="#E2E8F0" font-family="system-ui, sans-serif" font-size="12" font-weight="600">IST (UTC+5:30): <tspan fill="#38BDF8">16:30</tspan></text>
+
+  <circle cx="710" cy="89" r="6" fill="#A78BFA"/>
+  <text x="725" y="93" fill="#E2E8F0" font-family="system-ui, sans-serif" font-size="12" font-weight="600">UTC: <tspan fill="#A78BFA">11:00</tspan></text>
+
+  <circle cx="850" cy="89" r="6" fill="#34D399"/>
+  <text x="865" y="93" fill="#E2E8F0" font-family="system-ui, sans-serif" font-size="12" font-weight="600">EST (UTC-5): <tspan fill="#34D399">06:00</tspan></text>
+
+  <circle cx="1000" cy="89" r="6" fill="#F472B6"/>
+  <text x="1015" y="93" fill="#E2E8F0" font-family="system-ui, sans-serif" font-size="12" font-weight="600">PST (UTC-8): <tspan fill="#F472B6">03:00</tspan></text>
+
+  <!-- LEFT COLUMN: Schedule a Meeting Form -->
+  <rect x="40" y="145" width="480" height="570" rx="12" fill="url(#zc-card)" stroke="#23356E" stroke-width="1.5"/>
+  <text x="65" y="180" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="16" font-weight="700">Schedule Cross-Zone Meeting</text>
+  <text x="65" y="200" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="12">Coordinate with international participants and auto-convert slot times</text>
+
+  <!-- Form Fields -->
+  <text x="65" y="235" fill="#E2E8F0" font-family="system-ui, sans-serif" font-size="12" font-weight="500">Meeting Title</text>
+  <rect x="65" y="245" width="430" height="38" rx="8" fill="#0C132E" stroke="#253874" stroke-width="1"/>
+  <text x="80" y="269" fill="#F1F5F9" font-family="system-ui, sans-serif" font-size="13">Quarterly ML Model Deployment &amp; Review</text>
+
+  <text x="65" y="310" fill="#E2E8F0" font-family="system-ui, sans-serif" font-size="12" font-weight="500">Date &amp; Selected Host Time (IST)</text>
+  <rect x="65" y="320" width="205" height="38" rx="8" fill="#0C132E" stroke="#253874" stroke-width="1"/>
+  <text x="80" y="344" fill="#F1F5F9" font-family="system-ui, sans-serif" font-size="12">📅 Nov 28, 2026</text>
+  <rect x="290" y="320" width="205" height="38" rx="8" fill="#0C132E" stroke="#253874" stroke-width="1"/>
+  <text x="305" y="344" fill="#F1F5F9" font-family="system-ui, sans-serif" font-size="12">⏰ 04:30 PM (IST)</text>
+
+  <text x="65" y="385" fill="#E2E8F0" font-family="system-ui, sans-serif" font-size="12" font-weight="500">Participant Remote Time Zone</text>
+  <rect x="65" y="395" width="430" height="38" rx="8" fill="#0C132E" stroke="#253874" stroke-width="1"/>
+  <text x="80" y="419" fill="#38BDF8" font-family="system-ui, sans-serif" font-size="12">UTC (Coordinated Universal Time) → Recipient sees 11:00 AM</text>
+
+  <!-- Agenda Builder Section -->
+  <text x="65" y="462" fill="#E2E8F0" font-family="system-ui, sans-serif" font-size="12" font-weight="600">Structured Agenda Checklist (45 mins total)</text>
+  
+  <rect x="65" y="475" width="430" height="32" rx="6" fill="#111B3D" stroke="#203063" stroke-width="1"/>
+  <text x="80" y="495" fill="#E2E8F0" font-family="system-ui, sans-serif" font-size="12">1. Sprint recap and goal alignment</text>
+  <text x="445" y="495" fill="#A78BFA" font-family="system-ui, sans-serif" font-size="11" font-weight="600">05 min</text>
+
+  <rect x="65" y="515" width="430" height="32" rx="6" fill="#111B3D" stroke="#203063" stroke-width="1"/>
+  <text x="80" y="535" fill="#E2E8F0" font-family="system-ui, sans-serif" font-size="12">2. Architecture &amp; NLP pipeline benchmark review</text>
+  <text x="445" y="535" fill="#A78BFA" font-family="system-ui, sans-serif" font-size="11" font-weight="600">25 min</text>
+
+  <rect x="65" y="555" width="430" height="32" rx="6" fill="#111B3D" stroke="#203063" stroke-width="1"/>
+  <text x="80" y="575" fill="#E2E8F0" font-family="system-ui, sans-serif" font-size="12">3. Open Q&amp;A and assignment of action items</text>
+  <text x="445" y="575" fill="#A78BFA" font-family="system-ui, sans-serif" font-size="11" font-weight="600">15 min</text>
+
+  <!-- Submit / Create Button -->
+  <rect x="65" y="640" width="430" height="42" rx="8" fill="url(#zc-grad)" filter="url(#zc-glow)"/>
+  <text x="280" y="666" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="14" font-weight="700" text-anchor="middle">Confirm &amp; Send Meeting Invitations</text>
+
+  <!-- RIGHT COLUMN: Upcoming Meetings & Reminders -->
+  <rect x="545" y="145" width="615" height="570" rx="12" fill="url(#zc-card)" stroke="#23356E" stroke-width="1.5"/>
+  <text x="575" y="180" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="16" font-weight="700">Upcoming Scheduled Meetings &amp; Reminders</text>
+  
+  <!-- Active Meeting Highlight Card -->
+  <rect x="575" y="205" width="555" height="150" rx="10" fill="#0C1535" stroke="#38BDF8" stroke-width="1.5"/>
+  <rect x="595" y="222" width="75" height="24" rx="4" fill="#0284C7" fill-opacity="0.3"/>
+  <text x="607" y="238" fill="#38BDF8" font-family="system-ui, sans-serif" font-size="11" font-weight="700">UPCOMING</text>
+  <text x="685" y="238" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="12">Starting in 42 minutes · Google Meet Sync</text>
+
+  <text x="595" y="275" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="18" font-weight="700">AI/ML Sprint Architecture &amp; Dataset Strategy</text>
+  <text x="595" y="298" fill="#CBD5E1" font-family="system-ui, sans-serif" font-size="12">Host: Ajitha Laxmi · Attendees: 6 participants (IST, UTC, EST zones)</text>
+
+  <!-- Join and Agenda Buttons -->
+  <rect x="595" y="315" width="130" height="28" rx="6" fill="#0284C7"/>
+  <text x="632" y="333" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="11" font-weight="700">Join Meeting</text>
+
+  <rect x="735" y="315" width="130" height="28" rx="6" fill="#1E2A54" stroke="#33467F" stroke-width="1"/>
+  <text x="765" y="333" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="11" font-weight="500">View Agenda</text>
+
+  <!-- Follow-Up & Action Items Section -->
+  <text x="575" y="390" fill="#E2E8F0" font-family="system-ui, sans-serif" font-size="14" font-weight="600">Pending Follow-Ups &amp; Automated Reminders</text>
+
+  <!-- Follow Up Item 1 -->
+  <rect x="575" y="408" width="555" height="70" rx="8" fill="#0E1635" stroke="#202F61" stroke-width="1"/>
+  <circle cx="605" cy="443" r="14" fill="#10B981" fill-opacity="0.2"/>
+  <path d="M599 443 L603 447 L611 439" stroke="#10B981" stroke-width="2" stroke-linecap="round"/>
+  <text x="630" y="435" fill="#F1F5F9" font-family="system-ui, sans-serif" font-size="13" font-weight="600">Distribute Meeting Minutes: NLP Preprocessing Team</text>
+  <text x="630" y="454" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="11">Sent to 4 team members with recording link · Completed</text>
+  <text x="1055" y="445" fill="#34D399" font-family="system-ui, sans-serif" font-size="11" font-weight="600">Dispatched</text>
+
+  <!-- Follow Up Item 2 -->
+  <rect x="575" y="490" width="555" height="70" rx="8" fill="#0E1635" stroke="#202F61" stroke-width="1"/>
+  <circle cx="605" cy="525" r="14" fill="#F59E0B" fill-opacity="0.2"/>
+  <circle cx="605" cy="525" r="3" fill="#F59E0B"/>
+  <text x="630" y="517" fill="#F1F5F9" font-family="system-ui, sans-serif" font-size="13" font-weight="600">Sync with nubiznez Mentors: Responsive Navigation Review</text>
+  <text x="630" y="536" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="11">Automated reminder set for tomorrow at 10:00 AM IST</text>
+  <text x="1060" y="527" fill="#FBBF24" font-family="system-ui, sans-serif" font-size="11" font-weight="600">Pending</text>
+
+  <!-- Prototype Note Footer -->
+  <rect x="575" y="580" width="555" height="110" rx="8" fill="#12183B" stroke="#25356E" stroke-width="1"/>
+  <text x="595" y="608" fill="#A78BFA" font-family="system-ui, sans-serif" font-size="12" font-weight="700">Prototype Architectural Specification:</text>
+  <text x="595" y="630" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="11">Designed as a single-page reactive dashboard prototype to test client-side time-zone conversion</text>
+  <text x="595" y="648" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="11">and dynamic agenda checklist workflows before full cloud calendar API synchronization.</text>
+</svg>
+

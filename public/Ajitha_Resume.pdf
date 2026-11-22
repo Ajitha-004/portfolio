@@ -1,0 +1,88 @@
+%PDF-1.4
+1 0 obj
+<<
+  /Type /Catalog
+  /Pages 2 0 R
+>>
+endobj
+2 0 obj
+<<
+  /Type /Pages
+  /Kids [3 0 R]
+  /Count 1
+>>
+endobj
+3 0 obj
+<<
+  /Type /Page
+  /Parent 2 0 R
+  /MediaBox [0 0 612 792]
+  /Contents 4 0 R
+  /Resources <<
+    /Font <<
+      /F1 5 0 R
+      /F2 6 0 R
+    >>
+  >>
+>>
+endobj
+4 0 obj
+<<
+  /Length 556
+>>
+stream
+BT
+/F1 22 Tf
+50 720 Td
+(Ajitha Laxmi Balamurugan - Resume) Tj
+0 -30 Td
+/F2 12 Tf
+(Computer Science Engineering (AI & ML) Student | KPR Institute of Engineering and Technology) Tj
+0 -25 Td
+(CGPA: 8.39 | Graduation: 2028 | Coimbatore, Tamil Nadu) Tj
+0 -40 Td
+/F1 14 Tf
+([OFFICIAL RESUME PLACEHOLDER]) Tj
+0 -25 Td
+/F2 11 Tf
+(To replace this placeholder with your complete resume, save your PDF as:) Tj
+0 -20 Td
+(public/resume/Ajitha_Resume.pdf) Tj
+0 -30 Td
+(LinkedIn: https://www.linkedin.com/in/ajitha-laxmi-balamurugan-53a323328/) Tj
+0 -20 Td
+(GitHub: https://github.com/Ajitha-004) Tj
+ET
+endstream
+endobj
+5 0 obj
+<<
+  /Type /Font
+  /Subtype /Type1
+  /BaseFont /Helvetica-Bold
+>>
+endobj
+6 0 obj
+<<
+  /Type /Font
+  /Subtype /Type1
+  /BaseFont /Helvetica
+>>
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000262 00000 n 
+0000000871 00000 n 
+0000000947 00000 n 
+trailer
+<<
+  /Size 7
+  /Root 1 0 R
+>>
+startxref
+1018
+%%EOF

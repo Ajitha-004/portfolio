@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%" fill="none">
+  <defs>
+    <radialGradient id="p-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#8B5CF6" stop-opacity="0.35"/>
+      <stop offset="60%" stop-color="#3B82F6" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#090A0F" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="p-border" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8B5CF6"/>
+      <stop offset="50%" stop-color="#3B82F6"/>
+      <stop offset="100%" stop-color="#06B6D4"/>
+    </linearGradient>
+    <linearGradient id="p-card" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#191B33"/>
+      <stop offset="100%" stop-color="#0E1020"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Ambient Glow -->
+  <circle cx="250" cy="250" r="230" fill="url(#p-glow)"/>
+
+  <!-- Glowing Border Ring -->
+  <circle cx="250" cy="250" r="195" stroke="url(#p-border)" stroke-width="3" stroke-dasharray="10 6" opacity="0.8"/>
+  <circle cx="250" cy="250" r="185" fill="url(#p-card)" stroke="#2C3260" stroke-width="2"/>
+
+  <!-- Profile Representation (Stylized Developer Silhouette & Monogram) -->
+  <circle cx="250" cy="190" r="65" fill="#242852" stroke="#8B5CF6" stroke-width="2"/>
+  <!-- Hair / Head outline -->
+  <path d="M190 195 C190 145 220 120 250 120 C280 120 310 145 310 195 C310 205 305 235 250 235 C195 235 190 205 190 195 Z" fill="#373F7C"/>
+  <circle cx="250" cy="190" r="45" fill="#4B559C"/>
+  <text x="250" y="202" fill="#FFFFFF" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-weight="800" font-size="34" text-anchor="middle">AL</text>
+
+  <!-- Shoulders / Torso -->
+  <path d="M140 360 C140 290 190 270 250 270 C310 270 360 290 360 360 Z" fill="#20254D" stroke="#3D4585" stroke-width="2"/>
+
+  <!-- Code / AI Badge Overlay -->
+  <rect x="155" y="365" width="190" height="34" rx="17" fill="#0C0E1E" stroke="url(#p-border)" stroke-width="1.5"/>
+  <text x="250" y="387" fill="#E2E8F0" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="600" text-anchor="middle">AI &amp; ML Engineer</text>
+
+  <!-- Orbital tech elements -->
+  <circle cx="80" cy="200" r="6" fill="#8B5CF6" opacity="0.7"/>
+  <circle cx="420" cy="280" r="5" fill="#06B6D4" opacity="0.7"/>
+  <circle cx="390" cy="130" r="8" fill="#EC4899" opacity="0.6"/>
+  <circle cx="110" cy="330" r="7" fill="#10B981" opacity="0.6"/>
+</svg>
