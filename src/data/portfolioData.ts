@@ -176,7 +176,7 @@ export const projectsData: ProjectDetail[] = [
     isPrototype: false,
     previewType: "fake-news-detection",
     imagePlaceholderPath: "/assets/projects/fake-news-detection-preview.svg",
-    githubUrl: null, // [EDITABLE PLACEHOLDER] - Set to your repository URL when ready
+    githubUrl: "https://github.com/Ajitha-004/Fake-News-Detection",
     liveDemoUrl: null, // [EDITABLE PLACEHOLDER] - Set to your deployment URL when ready
     developmentStatus: "Completed Concept"
   },
@@ -275,7 +275,7 @@ export const projectsData: ProjectDetail[] = [
     prototypeLabel: "Single-Page Prototype Preview",
     previewType: "zohoconnect",
     imagePlaceholderPath: "/assets/projects/zohoconnect-preview.svg",
-    githubUrl: null, // [EDITABLE PLACEHOLDER]
+    githubUrl: "https://github.com/Ajitha-004/ZohoConnect",
     liveDemoUrl: null, // [EDITABLE PLACEHOLDER]
     developmentStatus: "Prototype Preview"
   },
