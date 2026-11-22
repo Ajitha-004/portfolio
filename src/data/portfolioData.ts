@@ -385,92 +385,139 @@ export const internshipExperiences: InternshipExperience[] = [
 
 export const certificationsData: CertificationItem[] = [
   {
-    id: "nptel-nlp",
-    title: "Natural Language Processing",
-    issuer: "NPTEL / IIT Madras",
-    date: "[Completion Date: Editable]",
-    category: "Specialization",
-    credentialUrl: null, // [EDITABLE PLACEHOLDER]
-    verificationAvailable: false,
-    description: "In-depth academic certification covering text normalization, language models, syntactic parsing, semantics, and sentiment analysis.",
-    skillsGained: ["Natural Language Processing", "Language Modeling", "Text Processing"]
+    id: "spoken-tutorial-python",
+    title: "Python 3.4.3 Training",
+    issuer: "Spoken Tutorial Project, IIT Bombay",
+    date: "May 5th 2025",
+    category: "IIT Bombay",
+    certificateImage: "/certificates/python-3-4-3-training.jpeg",
+    scoreOrCredits: "Score: 65.00% | Credits: 4",
+    credentialUrl: null,
+    verificationAvailable: true,
+    description: "Completed Python 3.4.3 evaluation test organized at KPR Institute of Engineering and Technology, invigilated by college faculty with course curriculum provided by Spoken Tutorial Project, IIT Bombay.",
+    skillsGained: ["Python", "Programming Basics", "Problem Solving", "Scripting"]
   },
   {
-    id: "nptel-iiot",
-    title: "Industry 4.0 and Industrial Internet of Things",
-    issuer: "NPTEL",
-    date: "[Completion Date: Editable]",
-    category: "Specialization",
-    credentialUrl: null, // [EDITABLE PLACEHOLDER]
-    verificationAvailable: false,
-    description: "Study of cyber-physical systems, smart industrial connectivity, sensor integration, cloud analytics, and modern industrial automation.",
-    skillsGained: ["IIoT", "Smart Sensors", "Industry 4.0 Concepts"]
+    id: "spoken-tutorial-java",
+    title: "Java Training",
+    issuer: "Spoken Tutorial Project, IIT Bombay & EduPyramids",
+    date: "17 December 2025",
+    category: "IIT Bombay",
+    certificateImage: "/certificates/java-training-spoken-tutorial.jpeg",
+    scoreOrCredits: "Score: 75.00% | Credits: 4",
+    credentialUrl: null,
+    verificationAvailable: true,
+    description: "Completed comprehensive Java examination organized at KPRIET with curriculum and evaluation provided by EduPyramids, SINE, IIT Bombay.",
+    skillsGained: ["Java", "Object-Oriented Programming", "Exception Handling", "Data Structures"]
   },
   {
-    id: "iit-bombay-spoken",
-    title: "Spoken Tutorial Certifications",
-    issuer: "IIT Bombay Spoken Tutorial",
-    date: "[Completion Date: Editable]",
-    category: "Course",
-    credentialUrl: null, // [EDITABLE PLACEHOLDER]
-    verificationAvailable: false,
-    description: "Rigorous laboratory and test-based programming evaluations certifying fundamental computer science and computational literacy.",
-    skillsGained: ["Programming Foundations", "Hands-on Coding", "Problem Solving"]
+    id: "spoken-tutorial-advanced-cpp",
+    title: "Advanced Cpp Training",
+    issuer: "Spoken Tutorial Project, IIT Bombay",
+    date: "May 5th 2025",
+    category: "IIT Bombay",
+    certificateImage: "/certificates/advanced-cpp-training.jpeg",
+    scoreOrCredits: "Score: 70.00% | Credits: 1",
+    credentialUrl: null,
+    verificationAvailable: true,
+    description: "Certified in Advanced C++ testing pointers, memory allocation, object-oriented paradigms, and performance optimization from IIT Bombay.",
+    skillsGained: ["Advanced C++", "Memory Management", "OOP", "Algorithm Implementation"]
   },
   {
-    id: "python-cert",
-    title: "Python Certifications",
-    issuer: "Authorized Technical Learning Partner",
-    date: "[Completion Date: Editable]",
-    category: "Course",
-    credentialUrl: null, // [EDITABLE PLACEHOLDER]
-    verificationAvailable: false,
-    description: "Comprehensive qualification certifying Python syntax, object-oriented concepts, exception handling, data structures, and script automation.",
-    skillsGained: ["Python", "Scripting", "OOP", "Data Handling"]
+    id: "spoken-tutorial-postgresql",
+    title: "RDBMS PostgreSQL Training",
+    issuer: "Spoken Tutorial Project, IIT Bombay & EduPyramids",
+    date: "17 December 2025",
+    category: "IIT Bombay",
+    certificateImage: "/certificates/rdbms-postgresql-training.jpeg",
+    scoreOrCredits: "Score: 80.00% | Credits: 1",
+    credentialUrl: null,
+    verificationAvailable: true,
+    description: "Certified in Relational Database Management Systems (RDBMS) and PostgreSQL covering schema design, complex joins, subqueries, and indexing.",
+    skillsGained: ["PostgreSQL", "RDBMS", "SQL Queries", "Schema Design"]
   },
   {
-    id: "sql-cert",
-    title: "SQL Certifications",
-    issuer: "Database Learning Institute",
-    date: "[Completion Date: Editable]",
-    category: "Course",
-    credentialUrl: null, // [EDITABLE PLACEHOLDER]
-    verificationAvailable: false,
-    description: "Relational database mastery covering complex joins, subqueries, indexing, aggregate operations, schema design, and DDL/DML.",
-    skillsGained: ["SQL Queries", "Relational Database Design", "Query Optimization"]
+    id: "codechef-learn-java",
+    title: "Learn Java – Pro Certificate",
+    issuer: "CodeChef",
+    date: "13th July 2026",
+    category: "CodeChef",
+    certificateImage: "/certificates/codechef-learn-java.jpeg",
+    certificateId: "53e8b37",
+    scoreOrCredits: "Username: kpr24am004",
+    credentialUrl: "https://www.codechef.com/certificates/verify",
+    verificationAvailable: true,
+    description: "Pro Certificate of Completion awarded for finishing all lessons, architectural modules, and coding projects of Learn Java by CodeChef.",
+    skillsGained: ["Java Fundamentals", "Syntax & Logic", "Console Projects"]
   },
   {
-    id: "infosys-cert",
-    title: "Infosys Certifications",
-    issuer: "Infosys Springboard",
-    date: "[Completion Date: Editable]",
-    category: "Course",
-    credentialUrl: null, // [EDITABLE PLACEHOLDER]
-    verificationAvailable: false,
-    description: "Professional course series focused on industry software development lifecycles, problem analysis, and computational best practices.",
-    skillsGained: ["Software Engineering", "Professional Development", "Algorithmic Logic"]
+    id: "codechef-practice-java",
+    title: "Practice Java – Problem Solving",
+    issuer: "CodeChef",
+    date: "13th July 2026",
+    category: "CodeChef",
+    certificateImage: "/certificates/codechef-practice-java.jpeg",
+    certificateId: "ecb3402",
+    scoreOrCredits: "Username: kpr24am004",
+    credentialUrl: "https://www.codechef.com/certificates/verify",
+    verificationAvailable: true,
+    description: "Completed comprehensive hands-on practice problems in Java, validating implementation speed and logical correctness.",
+    skillsGained: ["Java Practice", "Algorithmic Logic", "Speed Coding"]
   },
   {
-    id: "hackathon-code-o-clock",
-    title: "CODE O' CLOCK Hackathon",
-    issuer: "KPR Institute / Technical Body",
-    date: "[Participation Date: Editable]",
-    category: "Hackathon",
-    credentialUrl: null, // [EDITABLE PLACEHOLDER]
-    verificationAvailable: false,
-    description: "Rapid collaborative engineering hackathon tackling real-world problem statements under strict time constraints.",
-    skillsGained: ["Team Collaboration", "Rapid Prototyping", "Time Management", "Pitching"]
+    id: "codechef-java-problem-solving",
+    title: "Java Problem Solving – Pro Certificate",
+    issuer: "CodeChef",
+    date: "23rd July 2026",
+    category: "CodeChef",
+    certificateImage: "/certificates/codechef-java-problem-solving.jpeg",
+    certificateId: "3ec4099",
+    scoreOrCredits: "Username: kpr24am004",
+    credentialUrl: "https://www.codechef.com/certificates/verify",
+    verificationAvailable: true,
+    description: "Pro Certificate of Completion for solving advanced data structure patterns and algorithmic challenges in Java Problem Solving on CodeChef.",
+    skillsGained: ["Data Structures", "Algorithmic Problem Solving", "Code Optimization"]
+  },
+  {
+    id: "codechef-500-rating",
+    title: "500 Difficulty Rating in Java",
+    issuer: "CodeChef",
+    date: "19th August 2026",
+    category: "CodeChef",
+    certificateImage: "/certificates/codechef-500-difficulty-rating.jpeg",
+    certificateId: "332af3a",
+    scoreOrCredits: "Username: kpr24am004",
+    credentialUrl: "https://www.codechef.com/certificates/verify",
+    verificationAvailable: true,
+    description: "Pro Certificate of Completion awarded for completing all problem sets up to the 500 difficulty rating threshold in Java by CodeChef.",
+    skillsGained: ["Competitive Programming", "Pattern Recognition", "Edge Cases"]
+  },
+  {
+    id: "code-o-clock-hackathon",
+    title: "Code O' Clock National Hackathon",
+    issuer: "Coimbatore Institute of Technology (CIT) & SaaS 22",
+    date: "26th & 27th September 2025",
+    category: "Hackathon & Award",
+    certificateImage: "/certificates/code-o-clock-hackathon.jpeg",
+    scoreOrCredits: "Track: Team HACKVERSE",
+    credentialUrl: null,
+    verificationAvailable: true,
+    description: "Awarded for active participation on track as part of team 'HACKVERSE' in Code O Clock, an industry-collaborated 24-hour national-level hackathon organized by the Department of Artificial Intelligence and Data Science at CIT.",
+    skillsGained: ["24-Hour Hackathon", "Team HACKVERSE", "Rapid Prototyping", "AI & Data Science"]
   },
   {
     id: "brain-bid-second-prize",
     title: "Brain Bid – Second Prize",
-    issuer: "Technical Symposium Committee",
-    date: "[Award Date: Editable]",
-    category: "Award",
-    credentialUrl: null, // [EDITABLE PLACEHOLDER]
-    verificationAvailable: false,
-    description: "Awarded Second Prize in collegiate technical acumen competition testing analytical reasoning, fast problem solving, and technological strategy.",
-    skillsGained: ["Analytical Problem Solving", "Technical Acumen", "Competitive Strategy"]
+    issuer: "IEEE KPRIET Student Branch & IEEE WIE",
+    date: "24th March 2026",
+    category: "Hackathon & Award",
+    certificateImage: "/certificates/brain-bid-ieee-second-prize.jpeg",
+    certificateId: "IEEE/WIE/BB042",
+    scoreOrCredits: "Certificate No: IEEE/WIE/BB042",
+    credentialUrl: null,
+    verificationAvailable: true,
+    description: "Secured Second Prize in the collegiate 'Brain Bid' competition organized by IEEE KPRIET WIE Affinity Group, recognizing sharp analytical problem solving and technical acumen.",
+    skillsGained: ["Second Prize", "IEEE Student Branch", "Analytical Strategy", "Problem Solving"]
   }
 ];
 

@@ -179,8 +179,8 @@ export const Hero: React.FC = () => {
           </div>
           <div className="p-4 rounded-2xl bg-[#121528]/60 border border-purple-500/15 backdrop-blur-sm">
             <div className="text-emerald-400 font-mono text-xs mb-1">CREDENTIALS</div>
-            <div className="text-white font-semibold text-sm">8+ Certifications</div>
-            <div className="text-slate-400 text-xs">NPTEL, IIT Bombay, Infosys</div>
+            <div className="text-white font-semibold text-sm">10 Certificates</div>
+            <div className="text-slate-400 text-xs">IIT Bombay, CodeChef, IEEE</div>
           </div>
         </div>
 

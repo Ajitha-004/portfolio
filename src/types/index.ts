@@ -61,8 +61,11 @@ export interface CertificationItem {
   title: string;
   issuer: string;
   date: string;
-  category: 'Specialization' | 'Course' | 'Hackathon' | 'Award';
+  category: 'IIT Bombay' | 'CodeChef' | 'Hackathon & Award';
   credentialUrl: string | null;
+  certificateImage: string;
+  scoreOrCredits?: string;
+  certificateId?: string;
   verificationAvailable: boolean;
   description: string;
   skillsGained: string[];
